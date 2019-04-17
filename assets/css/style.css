@@ -35,7 +35,7 @@ body {
   h3 {
     font-family: Georgia, Times, "Times New Roman", serif;
     font-weight: 700;
-    color: #4aaaa5;
+    color: #76808a;
   }
   
   h1 {
@@ -56,11 +56,13 @@ body {
     position: fixed;
     z-index: 99;
     width: 100%;
-    margin: 0 0 30px;
+    top: 0;
+    margin: -10px 0 30px;
     overflow: auto;
     color: #ffffff;
     background: #ffffff;
     border-bottom: 2px solid #cccccc;
+    overflow-y:hidden;
   }
   
   #logo {
@@ -74,12 +76,13 @@ body {
     color: #ffffff;
     text-align: center;
     text-decoration: none;
-    background: #4aaaa5;
+    background: #76808a;
   }
   
   nav {
     float: right;
     margin-top: 25px;
+    overflow-y:hidden;
   }
   
   nav a {
@@ -106,7 +109,7 @@ body {
     color: #cccccc;
     text-align: center;
     background: #666666;
-    border-top: 8px solid #4aaaa5;
+    border-top: 8px solid #76808a;
     height: 50px;
   }
   
@@ -138,14 +141,14 @@ body {
   
   .work {
     position: relative;
-    float: left;
+    display: inline-block;
     width: 274px;
-    margin: 20px 0 25px;
+    margin: 20px 30px 25px;
     overflow: auto;
   }
   
   .work:nth-child(even) {
-    margin-right: 40px;
+    margin: 20px 0 20px 30px;
   }
   
   .work img {
@@ -159,12 +162,12 @@ body {
     bottom: 20px;
     width: 100%;
     padding: 15px;
-    margin-bottom: 0;
+    margin-bottom: 5px;
     font-weight: 300;
     line-height: 30px;
     color: #ffffff;
     text-align: center;
-    background: #4aaaa5;
+    background: #76808a;
     border-bottom: 0;
   }
   
@@ -175,6 +178,8 @@ body {
     margin-top: 10px;
     margin-right: 25px;
   }
+
+
   
   /* contact page */
   
@@ -212,7 +217,7 @@ body {
     font-size: 18px;
     color: #ffffff;
     cursor: pointer;
-    background: #4aaaa5;
+    background: #76808a;
     border: 0 none;
   }
   @media screen and (max-width: 980px) {
